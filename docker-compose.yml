@@ -1,6 +1,7 @@
 services:
   qualcoder:
     build: "."
+    image: peterstory/qualcoder-sshd:3.5
     environment:
       - ROOT_PASSWORD
     ports:
