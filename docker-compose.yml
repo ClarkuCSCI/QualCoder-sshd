@@ -1,0 +1,9 @@
+services:
+  qualcoder:
+    build: "."
+    environment:
+      - ROOT_PASSWORD
+    ports:
+      - "${LISTEN_SSHD}:22"
+    volumes:
+      - "./QualCoder:/root/QualCoder"
