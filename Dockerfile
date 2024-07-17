@@ -8,7 +8,8 @@ RUN apt update && apt install -y \
   python3-pyqt6 \
   python3-vlc
 
-RUN pip install --break-system-packages chardet EbookLib openpyxl pandas pdfminer.six Pillow plotly ply pydub rispy six SpeechRecognition
+ADD requirements.txt /requirements.txt
+RUN pip install --break-system-packages -r /requirements.txt
 
 # Install QualCoder
 WORKDIR root
