@@ -28,7 +28,7 @@ python-vlc==3.0.20123
 pytz==2024.1
 requests==2.32.3
 rispy==0.9.0
-setuptools==68.1.2
+setuptools==70.0.0
 six==1.16.0
 SpeechRecognition==3.10.4
 ssh-import-id==5.11
