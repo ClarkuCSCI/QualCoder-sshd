@@ -15,7 +15,7 @@ openpyxl==3.1.5
 packaging==24.1
 pandas==2.2.2
 pdfminer.six==20240706
-pillow==12.1.1
+pillow==12.2.0
 plotly==5.22.0
 ply==3.11
 pycparser==2.22
